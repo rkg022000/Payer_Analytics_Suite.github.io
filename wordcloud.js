@@ -30,8 +30,8 @@ var words = [
     
   ];
   
-  var width = 800;
-  var height = 600;
+  var width = 600;
+  var height = 500;
   
   var color = d3.scaleOrdinal(d3.schemeCategory10);
   
