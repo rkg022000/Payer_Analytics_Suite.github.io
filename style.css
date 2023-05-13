@@ -1,0 +1,112 @@
+
+text {
+  font-family: Impact, sans-serif;
+  font-size: 18px;
+  fill: #3c3c3c;
+}
+
+text:hover {
+  fill: #7f7f7f;
+}
+		/* Center the heading */
+		h1 {
+			text-align: center;
+		}
+
+		/* Style the navigation bar */
+		nav {
+			background-color: #333;
+			color: #fff;
+			overflow: hidden;
+		}
+		nav a {
+			float: left;
+			color: #fff;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		nav a.active {
+			background-color: #04AA6D;
+			color: #fff;
+		}
+		nav .right {
+			float: right;
+		}
+
+    /* Style the word cloud container */
+    #word-cloud {
+      width: 100%;
+      height: 400px;
+      margin-top: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 100px;
+    }
+    #about-us {
+      background-color: #c1bebe;
+      padding: 20px 0;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    h2 {
+      text-align: center;
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+    
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+    .tooltip {
+      position: absolute;
+      text-align: center;
+      padding: 10px;
+      font: 12px sans-serif;
+      background: #f0f0f0;
+      border: 0px;
+      border-radius: 8px;
+      pointer-events: none;
+    }
+  
+    .tooltip img {
+      width: 20%;
+      margin-bottom: 10px;
+    }
+
+  
+    
+    .read-more::before {
+      font-size: 12px;
+      font-weight: bold;
+      margin-right: 5px;
+    }
+  
+    
+    .read-more {
+      cursor: pointer;
+    }
+    
+    .info {
+     margin-top: 1px;
+      text-align: center;
+      color: #aa5204;
+      padding: 1px;
+      font-size: 12px;
+      margin-bottom: auto;
+    }
+    h3 {
+      text-align: center;
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 1px;
+    }
+    
