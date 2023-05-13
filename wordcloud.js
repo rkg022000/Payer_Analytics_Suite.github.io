@@ -42,7 +42,8 @@ var words = [
     .rotate(function() { return 0; })
     .fontSize(function(d) { return d.size; })
     .on("end", draw);
-    
+    // pass the height value to CSS
+document.getElementById("word-cloud").style.height = height + "px";
       
   layout.start();
   
