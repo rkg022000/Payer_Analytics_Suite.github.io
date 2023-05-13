@@ -136,6 +136,8 @@ text:hover {
    
         /* Style the word cloud image container */
         #image {
+	  width: 80%,
+	  height: auto;
           display: block;
           margin: 20 auto;
           border-radius: 3%;
