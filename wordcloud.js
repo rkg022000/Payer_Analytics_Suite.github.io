@@ -1,6 +1,6 @@
 // Define the words and their frequencies
 var words = [
-    {text: "90 Days Rx Utilization Report", size: 15, image: "image1.jpg", desc: "Split by days of supply analysis",link:"http://www.google.com"},
+    {text: "90 Days Rx Utilization Report", size: 15, image: "image1.jpg", desc: "Split by days of supply analysis",link:"index.html"},
     {text: "Alternate Payment Method", size: 20, image: "image1.jpg", desc: "Patient pay analysis",link:"#"},
     {text: "Biosimilar Summary View", size: 22, image: "image1.jpg", desc: "Biosimilar impact analysis",link:"#"},
     {text: "CMS Summary ", size: 18, image: "image1.jpg", desc: "Open source data",link:"#"},
