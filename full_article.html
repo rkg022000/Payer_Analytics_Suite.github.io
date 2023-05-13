@@ -18,17 +18,27 @@
 <body style="background-image: url(https://www.html.am/images/backgrounds/background-image-2.gif)">
 
 	<nav>
-		<a class="active" href="index.html">Payer Analytics Suite</a>
+		<a class="active" href="index.html">Payer Analytics Suite </a>
 		<!-- <div class="right">
 			<a href="#">Sign in</a>
 			<a href="#">Sign up</a>
 		</div> -->
 	</nav>
-	<h1>Welcome to Payer Analytics Suite</h1>
-
-  <div id="word-cloud"></div>
+	<h1>Welcome to Payer Analytics Suite- Article</h1>
   
-  
+    
+    <h2 id="combined-heading"></h2>
+    <img src="" id="image" alt="Image">
+    <script>
+        // Get the query parameters from the URL
+        var queryParams = new URLSearchParams(window.location.search);
+        var word = queryParams.get("word");
+        var image = queryParams.get("image");
+        var description = queryParams.get("description");
+        // Set the image source and combined heading text
+        document.getElementById("image").src = image;
+        document.getElementById("combined-heading").textContent = word + " - " + description;
+      </script>
 
   <script src="wordcloud.js"></script>
   <section id="about-us">
