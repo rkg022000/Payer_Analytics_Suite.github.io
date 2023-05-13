@@ -126,7 +126,7 @@ function draw(words) {
               // Construct the URL with query parameters
               var url = "full_article.html?word=" + encodeURIComponent(word) + "&image=" + encodeURIComponent(image) + "&description=" + encodeURIComponent(description);
               // Redirect to the new page
-              window.location.href = url;
+              window.open(url, "_blank");
             } else {
               alert("Invalid email format. Please try again.");
             }
